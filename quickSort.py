@@ -1,6 +1,3 @@
-# python 快速排序
-# @author Perlou<perloukevin@gmail.con>
-
 def quickSort(num_list):
     less = []
     pivotList = []
