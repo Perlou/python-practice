@@ -9,4 +9,4 @@ class Person(object):
 
 Perlou = Person('Perlou', 'Male', '6666-66-66', job = 'FE', age = 18)
 
-print Perlou
+print Perlou.name, Perlou.gender, Perlou.birth, Perlou.job
