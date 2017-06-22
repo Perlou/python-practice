@@ -27,3 +27,6 @@ print link_node.name, link_node['href'], link_node.get_text()
 
 link_node2 = soup.find('a', href=re.compile(r'cie'))
 print link_node2.name, link_node2['href'], link_node2.get_text()
+
+p_node = soup.find('p', class_="title")
+print p_node.name, p_node['class'], p_node.get_text()
